@@ -3,6 +3,15 @@ Hello Odin!
 
 <h2>Strictly follow below mentioned rules:</h2>
 
-<strong>1.Commit Message Rule:</strong> don't write vague messages, should contain subject and body, subject should answer ["Action?, What?", Where?], body should have reason of commit. For more and learn how to right good commit message vist: [link](https://www.theodinproject.com/lessons/foundations-commit-messages)
+<h3><u>1.Commit Message Rule:</u></h3> 
+1. Don't write vague messages
+2. Should contain subject and body 
+3. Subject should answer ["Action?, What?", Where?]
+4. Body should have reason of commit or explanation for method used or details/structure of changes 
+5. Capitalize the subject line 
+6. Don't end subject line with period 
+7. Use the imperative mood in the subject line "spoken or written as if giving a command or instruction"
 
-<strong>2.</strong>
+For more and learn how to right good commit message vist: [link](https://cbea.ms/git-commit/)
+
+<h3>2.</h3>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Function</title>
+</head>
+<body>
+    <script>
+        let add7 = number => number + 7;
+        let multiply = (num1, num2) => num1 * num2;
+        function capitalize(string) {
+            if (!string) return "";
+            return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+        }
+        function lastLetter (string) {
+            return string.slice(-1);
+        }
+        console.log(add7(4));
+        console.log(multiply(2, 7));
+        console.log(capitalize("maN"));
+        console.log(capitalize("WOMAN"));
+        console.log(capitalize("boy"));
+        console.log(lastLetter("JavaScript"));
+    </script>
+</body>
+</html>
